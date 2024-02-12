@@ -5,5 +5,5 @@ void main() {
     int num;
     printf("Enter Any Number : ");
     scanf("%d", &num);
-    printf("Your Entered Number %d Number.", num);
+    printf("You Entered %d Number in console.", num);
 }
