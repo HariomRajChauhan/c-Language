@@ -41,7 +41,17 @@ int main(){
 
     else
     {
-        printf("The Roots Are Imaginarry");
+        printf("The Roots Are Imaginarry\n");
+        float Positive_Root_Checking,Minus_B_By_2A;
+        Positive_Root_Checking = (-1*Root_Checking);
+        Positive_Root_Checking = (pow(Positive_Root_Checking,0.5))/(2*A);
+        Minus_B_By_2A = ((-B)/(2*A));
+        printf("%f\n",Positive_Root_Checking);
+
+        printf("The Imaginarry Roots Are : Xi1 = %.2f + %.3fi, Xi2 = %.2f - %.3fi\n",Minus_B_By_2A,Positive_Root_Checking,Minus_B_By_2A,Positive_Root_Checking);
+
+
+
     }
 
     
