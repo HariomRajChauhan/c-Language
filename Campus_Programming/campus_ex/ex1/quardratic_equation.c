@@ -28,12 +28,12 @@ int main(){
 
     else if (Root_Checking > 0)
     {
-        X1 = ((-B)+pow(Root_Checking,0.5))/(2*A);
+        X1 = ((-B)+pow(Root_Checking,0.5))/(2*A);   // X1 = ((-B) + sqrt(Root_Checking));
         X2 = ((-B)-pow(Root_Checking,0.5))/(2*A);
 
         printf("The Roots Are : X1 = %.2f, X2 = %.2f\n",X1,X2);
 
-        equation1 = (A*pow(X1,2)) + (B*X1) + C;
+        equation1 = (A*pow(X1,2)) + (B*X1) + C;  
         equation2 = (A*pow(X2,2)) + (B*X2) + C;
 
         printf("The Values Of : Equation1 = %.2f, Equation2 = %.2f\n",equation1,equation2);        

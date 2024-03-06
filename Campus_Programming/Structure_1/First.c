@@ -14,11 +14,12 @@ int main(){
 
     printf("Enter Names, prices and no. of pages :\n");
 
-    for ( i = 1; i <=3 ; i++)
-    {
         fflush(stdin);
         scanf("%c %f %d",&b1.name,&b1.price,&b1.pages);
-    }
+        fflush(stdin);
+        scanf("%c %f %d",&b1.name,&b1.price,&b1.pages);
+        fflush(stdin);
+        scanf("%c %f %d",&b1.name,&b1.price,&b1.pages);
     
     printf("And this is what you entered\n");
 
